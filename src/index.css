@@ -36,6 +36,6 @@ body {
   background: #626970;
 }
 
-::-webkit-backdrop-filter {
+/* ::-webkit-backdrop-filter {
   blur: 3px saturate(106%);
-}
+} */
