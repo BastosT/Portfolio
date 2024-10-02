@@ -2,3 +2,5 @@ https://github.com/RaDiO-AcTiVe8970/SkillShare-Managment?tab=readme-ov-file#skil
 
 
 https://github.com/huseyinafsin/ApartmentManagmentSystem
+
+https://developers.redhat.com/articles/2022/02/03/build-rest-api-ground-quarkus-20#repository_layer
