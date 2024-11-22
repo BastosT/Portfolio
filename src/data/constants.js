@@ -1,14 +1,15 @@
 export const Bio = {
   name: "TAILLEZ Bastien",
   roles: [
-    "IT Student",
+    "caca",
   ],
   description:
     "",
   github: "https://github.com/BastosT",
   resume:
     "",
-  linkedin: "https://www.linkedin.com/",
+  linkedin: "https://www.linkedin.com/in/bastien-taillez-91610a295/?originalSubdomain=fr",
+  email: "bastien.taillez74@icloud.com",
 };
 
 export const skills = [
@@ -125,16 +126,18 @@ export const experiences = [
   {
     id: 0,
     img: "https://th.bing.com/th/id/OIP.p5AhO5wlCMb8RSXTGTn2CAAAAA?w=142&h=150&c=7&r=0&o=5&pid=1.7",
-    role: "IT Intern",
-    company: "STC Consulting, 1201 Geneve (Switzerland)",
-    date: "April 2024 - June 2024",
-    desc: "Development of an application (management of directory of connected objects) in java. Implementation of the application front end with Angular",
+    role: "Stagiaire Informatique",
+    company: "STC Consulting, 1201 Geneve (Suisse)",
+    date: "Avril 2024 - Juin 2024",
+    desc: "Développement d’une application (gestion de répertoire d’objets connectés) en java. Implémentation du front-end de l’application avec Angular. Découvert de nouvelles technologies.",
     skills: [
       "Java",
       "Quarkus",
       "CQRS",
       "Angular",
       "JavaScript",
+      "Domaine Driven Design",
+      "Architecture Hexagonale",
     ],
     doc: "",
   },
@@ -154,23 +157,21 @@ export const education = [
 export const projects = [
   {
     id: 1,
-    title: "Vexa",
-    date: "Oct 2022 - Jan 2023",
+    title: "IA machine learning ",
+    date: "Oct 2024 - Dec 2024",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      "Application Flask modulaire exploitant l'IA pour analyser et explorer des datasets populaires via des modèles de machine learning. ",
     image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+      "/images/IA1.PNG",
     tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
+      "Python",
+      "SQLAlchemy",
+      "CNN",
+      "Random forest",
+      "docker",
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
+    github: "https://github.com/BastosT/flask_app",
   },
 ];
 

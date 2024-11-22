@@ -119,13 +119,13 @@ const Skills = () => {
   return (
     <Container id="Skills">
       <Wrapper>
-        <Title>Skills</Title>
+        <Title>Compétences</Title>
         <Desc
           style={{
             marginBottom: "40px",
           }}
         >
-          Here are some of my skills 
+          Voici quelques-unes de mes compétences 
         </Desc>
 
         <SkillsContainer>

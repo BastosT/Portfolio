@@ -229,10 +229,10 @@ const Hero = () => {
             <HeroLeftContainer>
               <motion.div {...headTextAnimation}>
                 <Title>
-                  Hi, I am <br /> {Bio.name}
+                  Bonjour, Je suis <br /> {Bio.name}
                 </Title>
                 <TextLoop>
-                  I am a
+                  Je suis 
                   <Span>
                     <Typewriter
                       options={{
@@ -250,7 +250,7 @@ const Hero = () => {
               </motion.div>
 
               <ResumeButton href={Bio.resume} target="_blank">
-                Check Resume
+                Mon CV 
               </ResumeButton>
             </HeroLeftContainer>
             <HeroRightContainer>

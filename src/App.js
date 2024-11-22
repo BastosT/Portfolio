@@ -50,7 +50,6 @@ function App() {
             <Projects />
             <Wrapper>
               <Education />
-              <Contact />
             </Wrapper>
             <Footer />
           </div>

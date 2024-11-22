@@ -2,7 +2,11 @@ import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import {
+  Email,
+  GitHub,
   LinkedIn,
+  Mail,
+  Phone,
 } from "@mui/icons-material";
 
 const FooterContainer = styled.div`
@@ -92,6 +96,12 @@ const Footer = () => {
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.linkedin} target="display">
             <LinkedIn />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.github} target="display">
+            <GitHub />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={`mailto:${Bio.email}`} target="_blank" rel="noopener noreferrer">
+            <Mail />
           </SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>&copy; 2024 Taillez Bastien. All rights reserved.</Copyright>
