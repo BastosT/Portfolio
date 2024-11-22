@@ -1,3 +1,4 @@
+import { Tag } from "@mui/icons-material";
 import React from "react";
 import styled from "styled-components";
 
@@ -103,13 +104,8 @@ const ProjectCard = ({ project }) => {
       <Details>
         <Title>{project.title}</Title>
         <Date>{project.date}</Date>
-        <Description>{project.description}</Description>
+        <Description>{project.description}</Description> 
       </Details>
-      <Members>
-        {project.member?.map((member) => (
-          <Avatar src={member.img} />
-        ))}
-      </Members>
       <Button href={project.github} target="_blank">
         View Code
       </Button>

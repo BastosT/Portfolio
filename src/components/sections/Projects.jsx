@@ -67,7 +67,7 @@ const Projects = () => {
             marginBottom: "40px",
           }}
         >
-          Voici quelques-uns de mes projets réaliser durant mon temps libre ou ma periode scolaire.
+          Voici quelques-uns de mes projets.
         </Desc>
 
         <CardContainer>
