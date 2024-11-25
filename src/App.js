@@ -44,6 +44,7 @@ function App() {
           <StartCanvas />
           <div>
             <Hero />
+            <Apropos/>
             <Wrapper>
               <Skills />
               <Experience />

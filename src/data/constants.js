@@ -199,8 +199,6 @@ export const projects = [
 ];
 
 export const aboutMeContent = {
-  introduction: "Bonjour ! Je m'appelle Bastien Taillez, et je suis un étudiant passionné par le monde de la technologie et de l'innovation. Mes domaines d'intérêt comprennent le développement web, l'analyse de données et l'intelligence artificielle.",
-  activities: "En plus de mes études, je participe à des hackathons et des défis de codage pour développer mes compétences et collaborer avec des personnes partageant les mêmes idées. Je suis également un membre actif du club d'informatique de mon université, où je contribue à divers projets et organise des événements.",
-  hobbies: "En dehors de mes poursuites académiques et techniques, j'ai un large éventail de loisirs. J'adore randonner et explorer la nature, lire des livres stimulants intellectuellement, et jouer occasionnellement à des jeux vidéo. Je crois également en l'importance de redonner à la communauté, et je fais du bénévolat dans un atelier de codage local pour les jeunes défavorisés.",
-  closing: "Je suis impatient de poursuivre mon parcours dans le monde de la technologie et j'attends avec impatience les opportunités et les défis à venir. N'hésitez pas à me contacter si vous souhaitez discuter de mes intérêts !"
+  intro: "Je suis un développeur passionné par la création d'applications web innovantes. Avec une solide formation en développement full-stack, je m'efforce constamment d'apprendre de nouvelles technologies et de relever des défis techniques stimulants.",
+  closing: "En dehors du code, j'aime le football, le ski , profiter de la vie wola. Cette diversité d'intérêts m'aide à maintenir une perspective équilibrée"
 };
