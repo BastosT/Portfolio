@@ -96,6 +96,23 @@ const Button = styled.a`
   text-align: center;
 `;
 
+const ItemWrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+`;
+
+const Skill = styled.div`
+  font-size: 15px;
+  font-weight: 400;
+  color: ${({ theme }) => theme.text_primary + 99};
+  @media only screen and (max-width: 768px) {
+    font-size: 12px;
+  }
+`;
+
+
+
 const ProjectCard = ({ project }) => {
   return (
     <Card>
@@ -105,6 +122,14 @@ const ProjectCard = ({ project }) => {
         <Title>{project.title}</Title>
         <Date>{project.date}</Date>
         <Description>{project.description}</Description> 
+        <Tags>
+              <b>Skills</b>
+              <ItemWrapper>             
+              {project?.tags?.map((skill, index) => (
+                  <Skill>• {skill}</Skill>
+                ))}
+              </ItemWrapper>
+            </Tags>
       </Details>
       <Button href={project.github} target="_blank">
         View Code
